@@ -3,10 +3,10 @@ report({
   "tests": [
     {
       "pair": {
-        "reference": "../bitmaps_reference/backstop_default_Vue_Logo_Image_Must_Show_At_All_Time_0_vue-logo-img_0_phone.png",
-        "test": "../bitmaps_test/20181029-112856/backstop_default_Vue_Logo_Image_Must_Show_At_All_Time_0_vue-logo-img_0_phone.png",
-        "selector": ".vue-logo-img",
-        "fileName": "backstop_default_Vue_Logo_Image_Must_Show_At_All_Time_0_vue-logo-img_0_phone.png",
+        "reference": "../bitmaps_reference/backstop_default_Vue_Logo_Image_Must_Show_At_All_Time_0_main-text_0_phone.png",
+        "test": "../bitmaps_test/20181030-152811/backstop_default_Vue_Logo_Image_Must_Show_At_All_Time_0_main-text_0_phone.png",
+        "selector": ".main-text",
+        "fileName": "backstop_default_Vue_Logo_Image_Must_Show_At_All_Time_0_main-text_0_phone.png",
         "label": "Vue Logo Image Must Show At All Time",
         "requireSameDimensions": true,
         "misMatchThreshold": 0.1,
@@ -14,16 +14,23 @@ report({
         "referenceUrl": "http://localhost:8082",
         "expect": 0,
         "viewportLabel": "phone",
-        "error": "Reference file not found /Users/achenwei/www/lab/backstopjs-playground/backstopjs-instance/backstop_data/bitmaps_reference/backstop_default_Vue_Logo_Image_Must_Show_At_All_Time_0_vue-logo-img_0_phone.png"
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
-        "reference": "../bitmaps_reference/backstop_default_Vue_Logo_Image_Must_Show_At_All_Time_0_vue-logo-img_1_tablet.png",
-        "test": "../bitmaps_test/20181029-112856/backstop_default_Vue_Logo_Image_Must_Show_At_All_Time_0_vue-logo-img_1_tablet.png",
-        "selector": ".vue-logo-img",
-        "fileName": "backstop_default_Vue_Logo_Image_Must_Show_At_All_Time_0_vue-logo-img_1_tablet.png",
+        "reference": "../bitmaps_reference/backstop_default_Vue_Logo_Image_Must_Show_At_All_Time_0_main-text_1_tablet.png",
+        "test": "../bitmaps_test/20181030-152811/backstop_default_Vue_Logo_Image_Must_Show_At_All_Time_0_main-text_1_tablet.png",
+        "selector": ".main-text",
+        "fileName": "backstop_default_Vue_Logo_Image_Must_Show_At_All_Time_0_main-text_1_tablet.png",
         "label": "Vue Logo Image Must Show At All Time",
         "requireSameDimensions": true,
         "misMatchThreshold": 0.1,
@@ -31,9 +38,16 @@ report({
         "referenceUrl": "http://localhost:8082",
         "expect": 0,
         "viewportLabel": "tablet",
-        "error": "Reference file not found /Users/achenwei/www/lab/backstopjs-playground/backstopjs-instance/backstop_data/bitmaps_reference/backstop_default_Vue_Logo_Image_Must_Show_At_All_Time_0_vue-logo-img_1_tablet.png"
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     }
   ],
   "id": "backstop_default"

@@ -29,7 +29,7 @@
       "clickSelector": "",
       "postInteractionWait": 0,
       "selectors": [
-        ".vue-logo-img"
+        ".main-text"
       ],
       "selectorExpansion": true,
       "expect": 0,
