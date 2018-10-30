@@ -3,10 +3,10 @@ report({
   "tests": [
     {
       "pair": {
-        "reference": "../bitmaps_reference/backstop_default_Vue_Logo_Image_Must_Show_At_All_Time_0_main-text_0_phone.png",
-        "test": "../bitmaps_test/20181030-152811/backstop_default_Vue_Logo_Image_Must_Show_At_All_Time_0_main-text_0_phone.png",
-        "selector": ".main-text",
-        "fileName": "backstop_default_Vue_Logo_Image_Must_Show_At_All_Time_0_main-text_0_phone.png",
+        "reference": "../bitmaps_reference/backstop_default_Vue_Logo_Image_Must_Show_At_All_Time_0_data-backstopmain-text_0_phone.png",
+        "test": "../bitmaps_test/20181030-171826/backstop_default_Vue_Logo_Image_Must_Show_At_All_Time_0_data-backstopmain-text_0_phone.png",
+        "selector": "[data-backstop=\"main-text\"]",
+        "fileName": "backstop_default_Vue_Logo_Image_Must_Show_At_All_Time_0_data-backstopmain-text_0_phone.png",
         "label": "Vue Logo Image Must Show At All Time",
         "requireSameDimensions": true,
         "misMatchThreshold": 0.1,
@@ -27,10 +27,10 @@ report({
     },
     {
       "pair": {
-        "reference": "../bitmaps_reference/backstop_default_Vue_Logo_Image_Must_Show_At_All_Time_0_main-text_1_tablet.png",
-        "test": "../bitmaps_test/20181030-152811/backstop_default_Vue_Logo_Image_Must_Show_At_All_Time_0_main-text_1_tablet.png",
-        "selector": ".main-text",
-        "fileName": "backstop_default_Vue_Logo_Image_Must_Show_At_All_Time_0_main-text_1_tablet.png",
+        "reference": "../bitmaps_reference/backstop_default_Vue_Logo_Image_Must_Show_At_All_Time_0_data-backstopmain-text_1_tablet.png",
+        "test": "../bitmaps_test/20181030-171826/backstop_default_Vue_Logo_Image_Must_Show_At_All_Time_0_data-backstopmain-text_1_tablet.png",
+        "selector": "[data-backstop=\"main-text\"]",
+        "fileName": "backstop_default_Vue_Logo_Image_Must_Show_At_All_Time_0_data-backstopmain-text_1_tablet.png",
         "label": "Vue Logo Image Must Show At All Time",
         "requireSameDimensions": true,
         "misMatchThreshold": 0.1,

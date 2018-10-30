@@ -29,7 +29,7 @@
       "clickSelector": "",
       "postInteractionWait": 0,
       "selectors": [
-        ".main-text"
+        "[data-backstop=\"main-text\"]"
       ],
       "selectorExpansion": true,
       "expect": 0,
