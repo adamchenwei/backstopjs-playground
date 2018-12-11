@@ -1,0 +1,9 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "vue-e2e-target-app-with-router/package.json"
+      ]
+    }
+  }
+}
